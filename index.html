@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recapitulación de Unidades - IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <header class="header">
+            <h1>📚 Recapitulación de Unidades</h1>
+            <p class="subtitle">Resúmenes de las 6 unidades de Inteligencia Artificial</p>
+        </header>
+
+        <!-- Sección de Búsqueda -->
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="🔍 Buscar archivo..." class="search-input">
+        </div>
+
+        <!-- Sección Principal de Archivos -->
+        <main class="main-content">
+            <section class="files-grid" id="filesGrid">
+                <!-- Los archivos se cargarán dinámicamente aquí -->
+            </section>
+        </main>
+
+        <!-- Sección de Validación -->
+        <section class="validation-section">
+            <h2>✓ Validación de Información</h2>
+            <div class="validation-form">
+                <label for="unitSelect">Selecciona una unidad:</label>
+                <select id="unitSelect" class="select-input">
+                    <option value="">-- Selecciona una unidad --</option>
+                </select>
+                <button id="validateBtn" class="btn btn-validate">Validar Información</button>
+            </div>
+            <div id="validationResult" class="validation-result"></div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2024 Recapitulación de Unidades | Desarrollado con HTML, CSS y JavaScript</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
